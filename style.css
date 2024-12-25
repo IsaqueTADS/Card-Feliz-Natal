@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+body {
+  max-width: 1200px;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298, #b0c4de, #ffffff);
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #ff0000;
+  margin-bottom: 30px;
+}
+.card p {
+  font-size: 1.1rem;
+  color: #2a5298;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card button:hover {
+    background-color: #ffd700;
+    color: #2a5290;
+    transform: scale(1.1);
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+
+
